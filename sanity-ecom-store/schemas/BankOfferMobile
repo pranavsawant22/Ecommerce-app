@@ -1,0 +1,20 @@
+export default {
+  name: "bankOfferMobile",
+  title: "BankOfferMobile",
+  type: "document",
+  fields: [
+    {
+      name: "bankName",
+      title: "Name",
+      type: "string",
+    },
+    {
+      name: "image",
+      title: "Image",
+      type: "image",
+      options: {
+        hotspot: true,
+      },
+    },
+  ],
+};

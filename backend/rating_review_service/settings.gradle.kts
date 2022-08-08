@@ -1,0 +1,1 @@
+rootProject.name = "com.de_b1.rating_review_service"

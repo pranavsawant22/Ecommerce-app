@@ -1,0 +1,13 @@
+.text_box__parent{
+    text-align: center;
+}
+.text_box {
+  border: 2px solid #f0c000;
+  border-radius: 5px;
+  background-color: #f0c000;
+  display: inline-block;
+  color: black;
+  padding: 10px;
+}
+
+

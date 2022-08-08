@@ -1,0 +1,44 @@
+Get cart data
+
+Test cases
+
+1) If userId not in cart then return that no cart data and status of 404 not found
+2) If userId is not given then return required userId with status 400 bad request
+
+
+Post cart Data
+
+Test cases
+
+1) If userId is not given then return required userId with status 400 bad request
+2) If already cart exisits then need to update the cart_items array
+3) If cart doesn't exists then we need to insert a new document itself
+4) Check the incoming body if any field missing report it to frontend.
+
+
+Patch (Update) cart Data
+
+Test cases
+
+1) If userId is not given then return required userId with status 400 bad request
+2) Check the incoming body if any field missing report it to frontend.
+3) If user did not create the cart report it to frontend you need to add to cart before update
+4) If user creates cart but trying to update item not present in cart then report it to frontend.
+
+Delete cart data
+
+Test cases
+
+1) If userId is not given then return required userId with status 400 bad request
+2) Check the incoming body if any field missing report it to frontend.
+3) If cart of user doesn't exisist and trying to delete then report it
+4) If trying to delete the cart item not added to cart
+5) Trying to delete the cart item added to cart
+
+
+Added test cases in this bug fix are
+
+quantity should be positive
+when adding to cart cart_item_id is generated randomly
+and also added validation on incoming body parameters
+

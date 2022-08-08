@@ -1,0 +1,40 @@
+.cat__poster {
+  width: 100%;
+  object-fit: fill;
+  max-height: 250px;
+  transition: transform 450ms;
+  background: cornsilk;
+  margin-bottom: 10px;
+  cursor:pointer;
+}
+
+.cat__posters {
+  width: 100%;
+  display: inline-flex;
+  overflow-y: hidden;
+  overflow-x: visible;
+  padding: 20px;
+}
+
+.cat__posters::-webkit-scrollbar {
+  display: none;
+}
+
+/* 
+  .cat__posters:hover{
+    transform: scale(1.08);
+    opacity: 1;
+  } */
+
+.cat__card {
+  width: 300px;
+  height: 200px;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 2px;
+}
+
+.cat__card:hover {
+  transform: scale(1.08);
+  opacity: 1;
+}

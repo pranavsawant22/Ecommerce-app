@@ -1,0 +1,1 @@
+rootProject.name = "com.de_b1.wishlist_service"
